@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta name="viewport" content=""with=device-width, initial-scale="1.0">
+    <title>Kick It for a Cause, Inc.</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+  </head>
+  <body>
+    <!-- HEADER -->
+      <section class="header3">
+        <nav>
+          <a href="index.html"><img src="img/logo.png"></a>
+          <div class="nav-links open-sans-menu" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="tournament.html">TOURNAMENT</a></li>
+              <li><a href="press.html">PRESS</a></li>
+              <li><a href="shop.html">SHOP</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+          </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+      <div class="text-box2">
+        <h1>Tournament</h1>
+        <p class="about-p">Get ready to Kick It! 
+        </p>
+
+      </div>
+
+      </section>
+
+      <section class="about">
+        <h1>Kick It 2024 will be taking place on Saturday, June 8 <br>at Woburn Memorial High School. <br>Registration closes May 10th, 2024!</h1>
+        <br>
+        <br>
+        <a href="https://www.formpl.us/form/5404528949198848" class="row-btn-shop">Register Now</a>
+      </section>
+
+      
+
+      <section class="main-two">
+
+        <div class="about-row">
+          <div class="about-col">
+            <h3>Safety</h3>
+            <p>Players will be expected to play in ways that protect the safety of those around them, see Instagram for more details
+            </p>
+          </div>
+          <div class="about-col">
+            <h3>Sportmanship</h3>
+            <p>Please keep in mind that this tournament is meant to be for fun and a good cause for all!
+            </p>
+          </div>
+          <div class="about-col">
+          
+            <h3>KickBall Rules</h3>
+            <p>A link will be provided to the official rules for this years tournament
+            </p>
+          </div>
+
+        </div>
+
+      </section>
+
+      
+
+      <!--FOOTER-->
+      <section class="footer">
+          <p>Copyright 2024, Kick It for a Cause, Inc.</p>
+      </section>
+
+<!----JavaScript for Toggle Menu---->
+      <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+          navLinks.style.right = "0";
+        }
+        function hideMenu(){
+          navLinks.style.right = "-200px";
+        }
+
+      </script>
+  </body>
+</html>

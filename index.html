@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta name="viewport" content=""with=device-width, initial-scale="1.0">
+    <title>Kick It for a Cause, Inc.</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+  </head>
+  <body>
+    <!-- HEADER -->
+      <section class="header">
+        <nav>
+          <a href="index.html"><img src="img/logo.png"></a>
+          <div class="nav-links open-sans-menu" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="tournament.html">TOURNAMENT</a></li>
+              <li><a href="press.html">PRESS</a></li>
+              <li><a href="shop.html">SHOP</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+          </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+      <div class="text-box">
+        <h1>Kick It 2024 Registration <br>Now Open</h1>
+        <p>Register your team today! 
+        </p>
+        <a href="https://www.formpl.us/form/5404528949198848" class="donate-main-btn">Register Now</a>
+
+      </div>
+
+      </section>
+
+      <section class="main-two">
+
+        <div class="row">
+          <div class="main-col">
+            <h3>Donations</h3>
+            <p>All proceeds will be distributed to various local initatives and Kick It projects
+            </p>
+            <a href="" class="row-btn">Donate Now</a>
+          </div>
+          <div class="main-col">
+            <h3>Volunteer</h3>
+            
+            <p>Don't wanna play but still want to be involved, sign up to volunteer now!
+            </p>
+            <a href="https://www.formpl.us/form/4528003989504000" class="row-btn">Volunteer Now</a>
+          </div>
+          <div class="main-col">
+            <h3>Sponsorships</h3>
+            <p>Sponsor this year's event and receive incentives and perks through our organization!
+            </p>
+            <a href="https://www.formpl.us/form/5158289806852096" class="row-btn">Sponsor Now</a>
+          </div>
+
+        </div>
+
+      </section>
+
+      <!--FOOTER-->
+      <section class="footer">
+          <p>Copyright 2024, Kick It for a Cause, Inc.</p>
+      </section>
+
+<!----JavaScript for Toggle Menu---->
+      <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+          navLinks.style.right = "0";
+        }
+        function hideMenu(){
+          navLinks.style.right = "-200px";
+        }
+
+      </script>
+  </body>
+</html>
